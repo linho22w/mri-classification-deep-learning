@@ -1,19 +1,19 @@
 # Automated Brain Tumor Detection in MRI using Ensemble Learning and XAI
 
-[cite_start]This project presents an automated approach for classifying brain tumors in Magnetic Resonance Imaging (MRI) scans using Convolutional Neural Networks (CNNs) and Explainable Artificial Intelligence (XAI) techniques[cite: 1, 5].
+This project presents an automated approach for classifying brain tumors in Magnetic Resonance Imaging (MRI) scans using Convolutional Neural Networks (CNNs) and Explainable Artificial Intelligence (XAI) techniques.
 
 ## 📋 Project Overview
-[cite_start]Early and accurate detection of brain tumors is vital for clinical decision support and choosing the appropriate treatment[cite: 4]. [cite_start]This study utilizes three pre-trained architectures with **Fine-Tuning**, integrated via **Ensemble Learning** to maximize generalization and accuracy[cite: 5, 38].
+Early and accurate detection of brain tumors is vital for clinical decision support and choosing the appropriate treatment. This study utilizes three pre-trained architectures with **Fine-Tuning**, integrated via **Ensemble Learning** to maximize generalization and accuracy.
 
 ## 🚀 Methodology
-* [cite_start]**Dataset**: LGG MRI Segmentation (by Mateusz Buda) sourced from Kaggle[cite: 6, 59].
-* [cite_start]**Architectures**: VGG16, Xception, and InceptionResNetV2[cite: 5, 43, 79].
-* [cite_start]**Preprocessing**: Normalization, Data Augmentation, and class balancing[cite: 6, 77].
-* [cite_start]**Data Split**: 70% Training, 20% Validation, and 10% Test[cite: 75, 76].
-* [cite_start]**Interpretability**: Implementation of **Grad-CAM** (XAI) to visualize the regions influencing the models' decisions[cite: 9, 44, 171].
+* **Dataset**: LGG MRI Segmentation (by Mateusz Buda) sourced from Kaggle.
+* **Architectures**: VGG16, Xception, and InceptionResNetV2.
+* **Preprocessing**: Normalization, Data Augmentation, and class balancing.
+* **Data Split**: 70% Training, 20% Validation, and 10% Test.
+* **Interpretability**: Implementation of **Grad-CAM** (XAI) to visualize the regions influencing the models' decisions.
 
 ## 📊 Performance Results
-[cite_start]The **Ensemble Learning** approach (Arithmetic Mean Voting) achieved the best overall performance[cite: 8, 164, 256]:
+The **Ensemble Learning** approach (Arithmetic Mean Voting) achieved the best overall performance:
 
 | Model | Accuracy | Recall | F1-Score | AUC |
 | :--- | :---: | :---: | :---: | :---: |
@@ -22,10 +22,10 @@
 | Xception | 0.91 | 0.89 | 0.90 | 0.968 |
 | **Ensemble (Final)** | **0.93** | **0.92** | **0.92** | **0.979** |
 
-[cite_start]*Note: Results obtained on the test set after Fine-Tuning[cite: 267, 272].*
+*Note: Results obtained on the test set after Fine-Tuning.*
 
 ## 🧠 Explainability (XAI)
-[cite_start]By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant areas for prediction[cite: 9, 172]. [cite_start]This visual validation ensures the models are focusing on the actual tumor regions, increasing the reliability of the clinical results[cite: 174, 314, 333].
+By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant areas for prediction. This visual validation ensures the models are focusing on the actual tumor regions, increasing the reliability of the clinical results.
 
 ## 🛠️ Usage
 1.  Clone the repository.
@@ -35,8 +35,3 @@
 
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-
----
-
-### Pro-Tip for your Portfolio:
-Would you like me to help you write a **LinkedIn post** in English to share this new repository? It’s a great way to show your network that you're working with high-level AI!
