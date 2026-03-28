@@ -1,8 +1,6 @@
-"""
 #Brain MRI Classification
 
 ##Libraries
-"""
 
 import numpy as np # Importa a biblioteca NumPy, que fornece suporte para arrays e operações matemáticas de alto desempenho
 import pandas as pd  # Importa a biblioteca Pandas, que fornece estruturas de dados e ferramentas de análise de dados
