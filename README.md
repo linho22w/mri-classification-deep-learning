@@ -33,5 +33,9 @@ By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant
 3.  Automate the dataset download using the `kagglehub` library as implemented in the notebook.
 4.  Run the `brain_tumor_detection.ipynb` notebook.
 
+## 📄 Full Academic Report
+For a deep dive into the methodology, architectural choices, and comprehensive results, please read the full project report: 
+[Download/View the Report (PDF)](./Relatorio_DL_Trabalho_P3.pdf) #########################
+
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
