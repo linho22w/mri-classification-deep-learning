@@ -30,7 +30,7 @@ By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant
 ## 🛠️ Usage
 1.  Clone the repository.
 2.  Install dependencies: `pip install -r requirements.txt`.
-3.  [cite_start]Automate the dataset download using the `kagglehub` library as implemented in the notebook[cite: 60].
+3.  Automate the dataset download using the `kagglehub` library as implemented in the notebook.
 4.  Run the `Relatorio_DL_Trabalho_P3.ipynb` notebook.
 
 ## 📜 License
