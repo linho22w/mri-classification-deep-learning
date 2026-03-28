@@ -31,7 +31,7 @@ By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant
 1.  Clone the repository.
 2.  Install dependencies: `pip install -r requirements.txt`.
 3.  Automate the dataset download using the `kagglehub` library as implemented in the notebook.
-4.  Run the `Relatorio_DL_Trabalho_P3.ipynb` notebook.
+4.  Run the `brain_tumor_detection.ipynb` notebook.
 
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
