@@ -35,7 +35,7 @@ By applying **Grad-CAM**, heatmaps were generated to highlight the most relevant
 
 ## 📄 Full Academic Report
 For a deep dive into the methodology, architectural choices, and comprehensive results, please read the full project report: 
-[Download/View the Report (PDF)](./Automated_Detection_of_Brain_Tumors_in_Magnetic_Resonance_Imaging__MRI__through_Convolutional_Neural_Networks_and_Ensemble_Learning)
+[Download/View the Report (PDF)](Automated_Detection_of_Brain_Tumors_in_Magnetic_Resonance_Imaging__MRI__through_Convolutional_Neural_Networks_and_Ensemble_Learning.pdf)
 
 ## 📜 License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
